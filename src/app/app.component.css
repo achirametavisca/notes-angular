@@ -1,0 +1,97 @@
+.box {
+  display: flex;
+}
+
+.boxy {
+  padding: 5px;
+  max-width: 33%;
+  min-width: 33%;
+}
+
+.sectionTitle {
+  margin: 0.2em 0;
+  font-family: 'Handlee', 'Roboto', helvetica, cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+.addStickyButton {
+  color: #83bc2d;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 1.2em;
+  padding: 0 5px;
+  background: none;
+}
+
+  .addStickyButton:hover {
+    color: #75a330;
+  }
+
+.stickyNotes1 {
+  width: 42%;
+  margin: 5px;
+  padding: 5px;
+  background-color: #ffff88;
+  border: 1px solid #ffff88;
+  max-width: 15em;
+  word-wrap: break-word;
+  cursor: pointer;
+  float: left;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Delius', 'Roboto', helvetica, cursive;
+}
+
+.stickyNotes2 {
+  width: 42%;
+  margin: 5px;
+  padding: 5px;
+  background-color: #eed3ff;
+  border: 1px solid #eed3ff;
+  max-width: 15em;
+  word-wrap: break-word;
+  cursor: pointer;
+  float: left;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Delius', 'Roboto', helvetica, cursive;
+}
+
+.stickyNotes3 {
+  width: 42%;
+  margin: 5px;
+  padding: 5px;
+  background-color: #c3ee8f;
+  border: 1px solid #c3ee8f;
+  max-width: 15em;
+  word-wrap: break-word;
+  cursor: pointer;
+  float: left;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Delius', 'Roboto', helvetica, cursive;
+}
+
+.notesCount {
+  height: 20%;
+}
+
+.notesText {
+  height: 78%;
+  overflow: auto;
+  background-color: transparent;
+  border: 0px;
+  resize: none;
+  font-family: 'Delius', 'Roboto', helvetica, cursive;
+}
+
+textarea:focus {
+  outline: none !important;
+  border-color: #719ECE;
+  /*box-shadow: 0 0 10px #719ECE;*/
+}
